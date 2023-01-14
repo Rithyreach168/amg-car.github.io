@@ -1,0 +1,122 @@
+.addcase-container{
+  height: 93vh;
+  border: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1rem;
+  background-color: rgba(2, 238, 255, 0.413);
+  border-radius: 10px;
+}
+
+.iconed-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.iconed-container a{
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.caption-container{
+  margin: 2rem 0 2rem;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: capitalize;
+}
+
+.caption-container h1{
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.caption-container p{
+  font-size: 1rem;
+  color: #999;
+}
+
+.photo-container{
+  padding:0 3rem 0 3rem;
+}
+
+.buy-container{
+  margin: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.price h1{
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.price p{
+  font-size: 0.7rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pickup3{
+  position: absolute;
+  left: 87%;
+  top: 85%;
+}
+
+.pickup3 i{
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 0.4rem;
+  font-size: 1.5rem;
+} 
+
+.pickup3 p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: capitalize;
+  font-size: 0.7rem;
+  color: #000;
+}
+
+@media (max-width:768px){
+
+  .addcase-container{
+    width: 90%;
+    height: 100vh;
+  }
+
+  .photo-container{
+    padding:0 ;
+    margin: 0 auto;
+  }
+  .photo-container img{
+    margin-top: -1rem;
+    margin-left: 2rem;
+    width: 80%;
+  }
+
+  .iconed-container{
+    margin-top: 2rem;
+  }
+
+  .caption-container{
+    margin: 0;
+    padding: 0;
+  }
+
+  .pickup3{
+    top: 80%;
+    left: 84%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .price{
+    margin: 0;
+    padding: 0;
+  }
+
+}
